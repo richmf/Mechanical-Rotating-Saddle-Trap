@@ -42,4 +42,4 @@ def run_simulation():
     x_sol , y_sol = xy_sol.sol(t_cont)[0,:] , xy_sol.sol(t_cont)[2,:]
     draw_simulation_trajectory(x_sol , y_sol)
 
-run_simulation()
+#run_simulation()
